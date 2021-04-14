@@ -3,7 +3,7 @@ from PIL import Image, ImageDraw
 from tqdm import tqdm
 import ndjson
 
-with open('/Users/sunilkumar/Dropbox/College Docs/Senior Year/mlart/ML_ART_GAN_Exploration/full_simplified_bicycle.ndjson') as f:
+with open('full_simplified_bicycle.ndjson') as f:
     data = ndjson.load(f)
 
 
